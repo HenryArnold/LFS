@@ -1,3 +1,6 @@
+export LFS = /mnt/lfs
+cd $LFS/sources
+
 mkdir -v build
 cd build
 ../configure --prefix=/tools            \

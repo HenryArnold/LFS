@@ -1,3 +1,5 @@
+export LFS=/mnt/lfs 
+
 mkdir -v $LFS/tools
 ln -sv $LFS/tools /
 groupadd lfs

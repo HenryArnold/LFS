@@ -1,3 +1,5 @@
+export LFS = /mnt/lfs
+
 mkdir -v $LFS/sources
 chmod -v a+wt $LFS/sources
 wget http://www.linuxfromscratch.org/lfs/downloads/stable/wget-list
